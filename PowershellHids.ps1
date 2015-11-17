@@ -1,5 +1,5 @@
-#by xti9er	www.xtiger.net  git/
-#
+#by xti9er	www.xtiger.net  https://github.com/xti9er/PowershellHids 
+# powershell HIDS DEMO 2015.11.18
 
 if(-not (Get-EventLog -logname application -source "powerhsell-HIDS" -Newest 1)){
 	New-EventLog -logname application -source "powerhsell-HIDS" 
